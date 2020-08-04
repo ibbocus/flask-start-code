@@ -1,0 +1,6 @@
+# requirements for pip to install 
+
+flask
+datetime 
+
+
