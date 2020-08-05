@@ -1,9 +1,9 @@
 # flask-start-code
 # Sparta App
 This app includes 3 pages
-- The home page showing you have connected to the sparta app
-- A page allowing you to see a number at a specific position within the fibonacci sequence
-- A page which pulls from a randomly formed database to produce a page of posts
+- The home page showing a login page where existing users can login or new user can be click a link to create their loging
+- A page allowing you to create an account to login
+- A page which has quiz questions where upon completion will take you to a page with your score
 
 ## Getting Started
 
@@ -22,7 +22,8 @@ Vagrant
 ### Installing
 
 Within the directory containing Vagrantfile
-``` /flask-start-code/
+``` 
+/flask-start-code/
 ```
 
 Run:
@@ -38,7 +39,7 @@ This will result in the app automatically initialising.
 The urls are as follows
 ### Homepage - This is where you can login
 ```
-flask.local
+flask.local/
 ```
 ### Create a login
 This allows a user to create an account, there is no response once you hit enter so just manually navigate back to the login page

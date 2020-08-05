@@ -1,6 +1,6 @@
-lschmod 755 /tmp/
+sudo chmod 755 /tmp/
 
-chmod +x /tmp/vagrant-shell
+sudo chmod +x /tmp/vagrant-shell
 
 
 #!bin/bash
@@ -10,8 +10,6 @@ chmod +x /tmp/vagrant-shell
   sudo apt-get install python3-pip -y
   cd /home/ubuntu/
   sudo python3 -m venv env
-  #sudo python3 -m pip install flask
-  #sudo python3 -m pip install datetime
   cd /home/ubuntu/app
   sudo python3 -m pip install -r requirements.txt
   sudo apt-get install nginx -y
