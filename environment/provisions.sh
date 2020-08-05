@@ -1,6 +1,6 @@
-sudo chmod 755 /tmp/
+chmod 755 /tmp/
 
-sudo chmod +x /tmp/vagrant-shell
+chmod +x /tmp/vagrant-shell
 
 
 #!bin/bash
